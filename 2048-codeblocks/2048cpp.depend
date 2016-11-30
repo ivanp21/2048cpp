@@ -1,4 +1,11 @@
 # depslib dependency file v1.0
-1480507577 source:/home/user/programas/2048cpp/2048-codeblocks/main.cpp
+1480511270 source:/home/user/programas/2048cpp/2048-codeblocks/main.cpp
 	<iostream>
+	"lib/2048cpp.h"
+
+1480511250 source:/home/user/programas/2048cpp/2048-codeblocks/lib/2048cpp.cpp
+	"2048cpp.h"
+	<iostream>
+
+1480511142 /home/user/programas/2048cpp/2048-codeblocks/lib/2048cpp.h
 
