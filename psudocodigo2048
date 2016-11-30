@@ -1,0 +1,18 @@
+main
+	inicializarjuego();
+	mientras(!finaldejuego()){
+		pedirmovimiento();
+		ejecutar_movimiento(juego);
+		introducir_vector_azar();
+		imprimir_juego(juego);	
+	}
+	return 0;
+
+
+
+#DEFINE TAM 4 ==> NO ES LO MISMO QUE CONST.
+
+estructura.juego
+	int tablero [TAM] [TAM];
+	int puntuacion;
+	char direccion;
